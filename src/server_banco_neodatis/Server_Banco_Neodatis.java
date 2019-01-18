@@ -26,7 +26,7 @@ public class Server_Banco_Neodatis {
 
         int opc;
         do {
-            System.out.println("-----------MENÚ-----------");
+            System.out.println("\n\n\n-----------MENÚ-----------");
             System.out.println("1_Consultar Clientes");
             System.out.println("2_Consultar Cuentas Corrientes");
             System.out.println("3_Consultar Cuentas Plazos");

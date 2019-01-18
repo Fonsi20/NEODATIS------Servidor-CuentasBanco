@@ -28,7 +28,8 @@ public class Visualizar {
         while (val.hasNext()) {
             ObjectValues ov = (ObjectValues) val.next();
 
-            System.out.println("Nombre: " + ov.getByAlias("nombre")
+            System.out.println("\n-------------------------------------\n"
+                    + "\nNombre: " + ov.getByAlias("nombre")
                     + "\n DNI: " + ov.getByAlias("dni")
                     + "\n DIRECCION: " + ov.getByAlias("direccion"));
         }
@@ -46,7 +47,8 @@ public class Visualizar {
         while (val.hasNext()) {
             ObjectValues ov = (ObjectValues) val.next();
 
-            System.out.println("Numero: " + ov.getByAlias("Numero")
+            System.out.println("\n-------------------------------------\n"
+                    + "\nNumero: " + ov.getByAlias("Numero")
                     + "\n Sucursal: " + ov.getByAlias("Sucursal")
                     + "\n SaldoActual: " + ov.getByAlias("SaldoActual"));
         }
@@ -64,7 +66,8 @@ public class Visualizar {
         while (val.hasNext()) {
             ObjectValues ov = (ObjectValues) val.next();
 
-            System.out.println("Numero: " + ov.getByAlias("Numero")
+            System.out.println("\n-------------------------------------\n"
+                    + "\nNumero: " + ov.getByAlias("Numero")
                     + "\n Sucursal: " + ov.getByAlias("Sucursal")
                     + "\n SaldoActual: " + ov.getByAlias("SaldoActual"));
         }
@@ -84,7 +87,8 @@ public class Visualizar {
         while (val.hasNext()) {
             ObjectValues ov = (ObjectValues) val.next();
 
-            System.out.println("numeroCta: " + ov.getByAlias("numeroCta")
+            System.out.println("\n-------------------------------------\n"
+                    + "\nnumeroCta: " + ov.getByAlias("numeroCta")
                     + "\n cantidad: " + ov.getByAlias("cantidad")
                     + "\n SaldoAnterior: " + ov.getByAlias("SaldoAnterior")
                     + "\n Fecha Operacion: " + ov.getByAlias("fechaOperacion")
